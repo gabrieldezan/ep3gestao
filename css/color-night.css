@@ -102,7 +102,7 @@ body,
 
 /* #Menu */
 .header {
-	background-color: #212629;
+	background-color: transparent;
 }
 
 .footer {
@@ -117,19 +117,19 @@ body,
 }
 
 .header ul.nav>li a {
-	color: #b0b0b0 !important;
+	color: #ffffff !important;
 	background-color: transparent;
 }
 
 .header ul.nav>li:hover>a {
-	color: #ffffff !important;
+	color: #2893db !important;
 	border: 1px solid #ffffff;
 	background: none;
 }
 
 .header ul.nav>li a.active {
-	color: #2893db !important;
-	border: 1px solid #2893db;
+	color: #f68607 !important;
+	border: 1px solid #f68607;
 }
 
 .header ul.nav>li a.active:hover {

@@ -280,30 +280,30 @@
 		
 // Load Big Video for desktop 
 		
-			if(Modernizr.video){
+			// if(Modernizr.video){
 						
-				$(function() {
-					BigVid = new $.BigVideo();
-					BigVid.init();					
-				});				
+			// 	$(function() {
+			// 		BigVid = new $.BigVideo();
+			// 		BigVid.init();					
+			// 	});				
 
-				$(".vidPlyPauBtn").data("view", true);
+			// 	$(".vidPlyPauBtn").data("view", true);
 				
-				$(".vidPlyPauBtn").click(function() {
-					$(this).find("i").attr("class", "");					
-					if($("#big-video-vid").css("display") !== "none"){
-						BigVid.getPlayer().pause();
-						$(this).find("i").addClass("fa fa-eye");
-						$("#big-video-vid").css({"display":"none"});
-					}else{
-						BigVid.getPlayer().play();
-						$(this).find("i").addClass("fa fa-eye-slash");
-						$("#big-video-vid").css({"display":"block"});
-					}
-				});
+			// 	$(".vidPlyPauBtn").click(function() {
+			// 		$(this).find("i").attr("class", "");					
+			// 		if($("#big-video-vid").css("display") !== "none"){
+			// 			BigVid.getPlayer().pause();
+			// 			$(this).find("i").addClass("fa fa-eye");
+			// 			$("#big-video-vid").css({"display":"none"});
+			// 		}else{
+			// 			BigVid.getPlayer().play();
+			// 			$(this).find("i").addClass("fa fa-eye-slash");
+			// 			$("#big-video-vid").css({"display":"block"});
+			// 		}
+			// 	});
 				
-				$("#big-video-wrap").css({"display":"none"});
-			}
+			// 	$("#big-video-wrap").css({"display":"none"});
+			// }
 			
 		
 			

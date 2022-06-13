@@ -2436,7 +2436,7 @@
 			}	
 			var jjj = false; 
 			
-			self.pgNexPre.removeClass("hideBtn");			
+			self.pgNexPre.removeClass("hideBtn");
 			for(var ik=0; ik < self.navArry.length; ik++){				
 				if(self.navArry[ik].attr("data-id") === self.url){					
 					if(self.navArry[ik].hasClass("removeNexPrevBtn")){

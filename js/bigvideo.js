@@ -310,29 +310,7 @@
 			return player;
         };
 		
-		 // Expose add and destroy player
-        BigVideo.destroyAdd = function() {
-			
-			if(bgVideopath === "" || bgVideopath === undefined){
-				if("" !== $("#big-video-vid_html5_api").attr("src") && $("#big-video-vid_html5_api").attr("src")!= undefined){
-					BigVideo.show("");
-				}
-				$(vidEl).css({"visibility":"hidden"});
-			}else{
-				$(vidEl).css({"visibility":"visible"});	
-							
-				var vPath = bgVideopath.mp4 != undefined ? bgVideopath.mp4 : "";
-				if(navigator.userAgent.toLowerCase().indexOf('firefox') > -1 || navigator.userAgent.toLowerCase().indexOf('opera') > -1 ) {
-					vPath = bgVideopath.ogv != undefined ? bgVideopath.ogv : vPath;
-				}
-				if(vPath !== $("#big-video-vid_html5_api").attr("src")){
-					BigVideo.show(vPath);
-				}				
-			}
-				
-			isQueued = false;
-			
-        };
+		 
     };
 
 })(jQuery);

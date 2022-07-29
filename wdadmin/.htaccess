@@ -1,0 +1,15 @@
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^(.*)$ principal.php?url=$1
+RewriteCond %{SERVER_PORT} 80
+#RewriteRule ^(.*)$ http://localhost/base/wdadmin/$1 [R=301,L,NE]
+#RewriteRule ^(.*)$ https://ep3gestao.com.br/wdadmin/$1 [R=301,L,NE]
+<IfModule mod_php5.c>
+    # Definir o tempo máximo de execucao do script para 30 mins (padrão: 60s)
+    php_value max_execution_time 1800
+    # Definir o tempo de expiração de sessao para 2 horas (padrão: 24 mins)
+    php_value session.cookie_lifetime 7200
+    php_value session.cache_expire 7200
+    php_value session.gc_maxlifetime 7200
+</IfModule>

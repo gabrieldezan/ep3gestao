@@ -1369,7 +1369,7 @@ input[type="button"]:active {
 .lightBackground {
 	background: rgba(255, 255, 255, 1);
 	background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 29%, rgba(185, 185, 185, 1) 83%, rgba(152, 152, 152, 1) 100%);
-	background: -webkit-gradient(radial, center center, 0px, center center, 100%, , color-stop(0%, rgba(255, 255, 255, 1)), color-stop(29%, rgba(246, 246, 246, 1)), color-stop(83%, rgba(185, 185, 185, 1)), color-stop(100%, rgba(152, 152, 152, 1)));
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(29%, rgba(246, 246, 246, 1)), color-stop(83%, rgba(185, 185, 185, 1)), color-stop(100%, rgba(152, 152, 152, 1)));
 	background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 29%, rgba(185, 185, 185, 1) 83%, rgba(152, 152, 152, 1) 100%);
 	background: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 29%, rgba(185, 185, 185, 1) 83%, rgba(152, 152, 152, 1) 100%);
 	background: -ms-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 29%, rgba(185, 185, 185, 1) 83%, rgba(152, 152, 152, 1) 100%);
@@ -1380,7 +1380,7 @@ input[type="button"]:active {
 .redBackground {
 	background: rgba(250, 197, 197, 1);
 	background: -moz-radial-gradient(center, ellipse cover, rgba(250, 197, 197, 1) 0%, rgba(250, 150, 150, 1) 29%, rgba(217, 95, 95, 1) 83%, rgba(255, 48, 48, 1) 100%);
-	background: -webkit-gradient(radial, center center, 0px, center center, 100%, , color-stop(0%, rgba(250, 197, 197, 1)), color-stop(29%, rgba(250, 150, 150, 1)), color-stop(83%, rgba(217, 95, 95, 1)), color-stop(100%, rgba(255, 48, 48, 1)));
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(250, 197, 197, 1)), color-stop(29%, rgba(250, 150, 150, 1)), color-stop(83%, rgba(217, 95, 95, 1)), color-stop(100%, rgba(255, 48, 48, 1)));
 	background: -webkit-radial-gradient(center, ellipse cover, rgba(250, 197, 197, 1) 0%, rgba(250, 150, 150, 1) 29%, rgba(217, 95, 95, 1) 83%, rgba(255, 48, 48, 1) 100%);
 	background: -o-radial-gradient(center, ellipse cover, rgba(250, 197, 197, 1) 0%, rgba(250, 150, 150, 1) 29%, rgba(217, 95, 95, 1) 83%, rgba(255, 48, 48, 1) 100%);
 	background: -ms-radial-gradient(center, ellipse cover, rgba(250, 197, 197, 1) 0%, rgba(250, 150, 150, 1) 29%, rgba(217, 95, 95, 1) 83%, rgba(255, 48, 48, 1) 100%);
@@ -1391,7 +1391,7 @@ input[type="button"]:active {
 .yellowBackground {
 	background: rgba(234, 228, 206, 1);
 	background: -moz-radial-gradient(center, ellipse cover, rgba(234, 228, 206, 1) 0%, rgba(241, 229, 189, 1) 29%, rgba(231, 212, 156, 1) 83%, rgba(225, 199, 142, 1) 100%);
-	background: -webkit-gradient(radial, center center, 0px, center center, 100%, , color-stop(0%, rgba(234, 228, 206, 1)), color-stop(29%, rgba(241, 229, 189, 1)), color-stop(83%, rgba(231, 212, 156, 1)), color-stop(100%, rgba(225, 199, 142, 1)));
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(234, 228, 206, 1)), color-stop(29%, rgba(241, 229, 189, 1)), color-stop(83%, rgba(231, 212, 156, 1)), color-stop(100%, rgba(225, 199, 142, 1)));
 	background: -webkit-radial-gradient(center, ellipse cover, rgba(234, 228, 206, 1) 0%, rgba(241, 229, 189, 1) 29%, rgba(231, 212, 156, 1) 83%, rgba(225, 199, 142, 1) 100%);
 	background: -o-radial-gradient(center, ellipse cover, rgba(234, 228, 206, 1) 0%, rgba(241, 229, 189, 1) 29%, rgba(231, 212, 156, 1) 83%, rgba(225, 199, 142, 1) 100%);
 	background: -ms-radial-gradient(center, ellipse cover, rgba(234, 228, 206, 1) 0%, rgba(241, 229, 189, 1) 29%, rgba(231, 212, 156, 1) 83%, rgba(225, 199, 142, 1) 100%);
@@ -1763,8 +1763,8 @@ a:hover.thumbClose_btn {
 }
 
 .elastislide-wrapper nav .np_btn .btn_icon {
-	background-image: url(../images/nav_white.png) !important;
-	background-image: -Webkit-image-set(url(../images/nav_white.png) 1x, url(../images/nav_white@2x.png) 2x) !important;
+	background-image: url(../images/nav_white.webp) !important;
+	background-image: -Webkit-image-set(url(../images/nav_white.webp) 1x, url(../images/nav_white@2x.webp) 2x) !important;
 	/* Image for Retina */
 }
 
@@ -2284,7 +2284,8 @@ a.fxEmbossBtn {
 }
 
 .services_list .rectangle_icon {
-	border: 5px solid #111111;
+	border: 5px solid #ffffff;
+    border-radius: 10px;
 }
 
 .services_list .rectangle_icon i {

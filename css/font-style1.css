@@ -141,75 +141,75 @@ Table of contents
 		
 /* #Body and h1,h2.., title font style */	
 	body {
-		font-family: 'header_font', sans-serif;
+		font-family: 'Nunito', sans-serif;
 		}
 	
 	h1,  h2, h3, h5 {
-		font-family: 'header_font', 'Trebuchet MS', sans-serif;
+		font-family: 'Nunito', sans-serif;
 		}
 	
 	h4, h6 {
-		font-family: 'body_font', sans-serif;
+		font-family: 'Nunito', sans-serif;
 		}
 	
-	p { font-family: 'header_font', 'Trebuchet MS', sans-serif; }
+	p { font-family: 'Nunito', sans-serif; }
 	
 	.fontFamily_1{
-		font-family: 'header_font', 'Trebuchet MS', sans-serif;
+		font-family: 'Nunito', sans-serif;
 		}
 		
 	.fontFamily_2{
-		font-family: 'body_font', sans-serif;
+		font-family: 'Nunito', sans-serif;
 		}
 		
 	.title_text {
-		font-family: 'header_font', 'Trebuchet MS', sans-serif;
+		font-family: 'Nunito', sans-serif;
 		 }
 		 		
 	.title_text_large {
-		font-family: 'header_font', 'Trebuchet MS', sans-serif;
+		font-family: 'Nunito', sans-serif;
 		}	
 
 	.mate a, .more a{
-		font-family: 'header_font', 'Trebuchet MS', sans-serif;
+		font-family: 'Nunito', sans-serif;
 		}
 	
-	.font_medium{ font-family: 'body_font', sans-serif; }
+	.font_medium{ font-family: 'Nunito', sans-serif; }
 	
 
 /* #largeText_boxed text font style */		
 	.largeText_boxed, .largeText_borderBoxed{
-		font-family: 'header_font', 'Trebuchet MS', sans-serif;
+		font-family: 'Nunito', sans-serif;
 		}
 	.button.large, button.large{
-		font-family: 'body_font', sans-serif;
+		font-family: 'Nunito', sans-serif;
 		}
 
 /* #Blog comment font style */		
 	.comment .comment-aut .reply{
-		font-family: 'body_font', sans-serif;
+		font-family: 'Nunito', sans-serif;
 		}
 		
 	.comment .comment-area p{ 
-		font-family: 'body_font', sans-serif;
+		font-family: 'Nunito', sans-serif;
 		}
 		
-	.num_likes{ font-family: 'body_font', sans-serif; }	
+	.num_likes{ font-family: 'Nunito', sans-serif; }	
 
 /* #Twitter font style */	
 	.tweet-wrapper span.time {  font-family: 'body_font', sans-serif !important; }
 	.tweet-wrapper span.user {  font-family: 'body_font', sans-serif !important; }
 
 /* #Flexslider font style */		
-	.flex_slideshow_tweet .slides li .tweet-wrapper .text { font-family: 'body_font', sans-serif; font-size:22px !important; }	
-	.flex_slideshow_tweet .slides li .tweet-wrapper h6  { font-family: 'body_font', sans-serif; font-size:18px !important; }
+	.flex_slideshow_tweet .slides li .tweet-wrapper .text { font-family: 'Nunito', sans-serif; font-size:22px !important; }	
+	.flex_slideshow_tweet .slides li .tweet-wrapper h6  { font-family: 'Nunito', sans-serif; font-size:18px !important; }
 
 /* #Section title font style */		
-	.sec_title{ font-family: 'header_font', 'Trebuchet MS', sans-serif; }
+	.sec_title{ font-family: 'Nunito', sans-serif; }
 
 /* #Carousel Thumbnail font style */	
 	.thumbItem_holder .carousel_thumbails .thumbItem h3{
-		font-family: 'body_font', sans-serif;
+		font-family: 'Nunito', sans-serif;
 		}
 	.withoutThumb ul.carousel_thumbails li:before{
 		font-family: 'body_font';
@@ -217,87 +217,87 @@ Table of contents
 		
 /* #Accordion font style */	
 	.accordion dt .acc_heading{
-		font-family: 'header_font', 'Trebuchet MS', sans-serif;
+		font-family: 'Nunito', sans-serif;
 		}
 
 /* #Tabs font style */	
 	.nav-tabs > li a{
-		font-family: 'header_font', 'Trebuchet MS', sans-serif;
+		font-family: 'Nunito', sans-serif;
 		}
 	.fullScreenGallery_thumbnails a.fxEmbossBtn{	
-		font-family: 'header_font', 'Trebuchet MS', sans-serif;
+		font-family: 'Nunito', sans-serif;
 		}
 		
 	.homeSlider h1 { 
-		font-family: 'body_font', sans-serif; text-transform:uppercase; 
+		font-family: 'Nunito', sans-serif; text-transform:uppercase; 
 		}
 
 /* #Thumbnail item font style */		
 	.item .text_field{
-		font-family: 'body_font', sans-serif;
+		font-family: 'Nunito', sans-serif;
 		}
 		
 	.linkText{
-		font-family: 'body_font', sans-serif;
+		font-family: 'Nunito', sans-serif;
 		}
 		
 	.view h2 {		
-		font-family: 'body_font', sans-serif;
+		font-family: 'Nunito', sans-serif;
 		}
 
 /* #Portfolio options font style */	
 	#options li {
-		font-family: 'body_font', sans-serif;
+		font-family: 'Nunito', sans-serif;
 		}
 		
 	#options li a 	{ 
-		font-family: 'body_font', sans-serif;
+		font-family: 'Nunito', sans-serif;
 		}
 		
 	.options_title, .options_title h6{
-		font-family: 'body_font', sans-serif;
+		font-family: 'Nunito', sans-serif;
 		}
 		
 	a.next_button_pro, a.previous_button_pro, a.close_button_pro{		
-		font-family: 'body_font', sans-serif;
+		font-family: 'Nunito', sans-serif;
 		}
 		
 	.sliderNumber_pro{
-		font-family: 'header_font', 'Trebuchet MS', sans-serif;
+		font-family: 'Nunito', sans-serif;
 		}
 
 /* #Pricing table font style */				
 	.pricing-table h2 {	
-		font-family: 'body_font', sans-serif;
+		font-family: 'Nunito', sans-serif;
 		}
 		
 	.pricing-table h2 .title{
-		font-family: 'header_font', 'Trebuchet MS', sans-serif;
+		font-family: 'Nunito', sans-serif;
 		}
 		
 	.pricing-table h2 .price_circle {
-		font-family: 'header_font', 'Trebuchet MS', sans-serif;
+		font-family: 'Nunito', sans-serif;
 		}
 
 /* #Blog tools font style */			
 	ul.tools li {
-		font-family: 'body_font', sans-serif;
+		font-family: 'Nunito', sans-serif;
 		}
 		
 	.readMore{
-		font-family:'body_font', sans-serif;
+		font-family:'Nunito', sans-serif;
 		}
 		
 /* #Image/content popup overlay font style */			
 	.itemOver .overlay .popup_overlay .popup_foot h4{
-		font-family: 'header_font', sans-serif;	
+		font-family: 'Nunito', sans-serif;	
 		}
 		
 	.item_feature>li .title{
-		font-family: 'body_font', sans-serif;
+		font-family: 'Nunito', sans-serif;
 		}
 
 /* #Boxed link tags font style */			
 	.boxed_links a {
-		font-family: 'body_font', sans-serif;
+		font-family: 'Nunito', sans-serif;
 		}

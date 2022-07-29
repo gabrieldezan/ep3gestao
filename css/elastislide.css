@@ -49,12 +49,8 @@
 
 .carousel_container img, .elastislide-carousel img{
 	display: inherit;	
+	border-radius: 5px;
 	}
-
-
-	
-
-/* Elastislide Style */
 
 .elastislide-list {
 	list-style-type: none;

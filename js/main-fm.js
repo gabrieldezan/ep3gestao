@@ -179,7 +179,7 @@
 					var thuNo = 0;
 					$(this).find(".carousel_preview").find(".carousel_item").each(function(){
 						$(this).attr('id', "prjId"+prId+"-"+thuNo);
-						carThu.append('<li> <img src="images/0.png" alt="image01" /> </li>');
+						carThu.append('<li> <img src="images/0.webp" alt="image01" /> </li>');
 						carThu.children(":last-child").attr('data-preview', "#prjId"+prId+"-"+thuNo);
 						thuNo++;
 					});
@@ -1643,7 +1643,7 @@
 			
 			$("#big-video-wrap").css({"display":"none"});
 			if(BigVid !== undefined){
-				BigVid.getPlayer().pause();			
+				BigVid.getPlayer().play();			
 			}
 			
 			if(ele !== undefined ){			
@@ -2436,7 +2436,7 @@
 			}	
 			var jjj = false; 
 			
-			self.pgNexPre.removeClass("hideBtn");			
+			self.pgNexPre.removeClass("hideBtn");
 			for(var ik=0; ik < self.navArry.length; ik++){				
 				if(self.navArry[ik].attr("data-id") === self.url){					
 					if(self.navArry[ik].hasClass("removeNexPrevBtn")){

@@ -25,4 +25,5 @@
 <script type="text/javascript" src="<?php echo URL . "js/jquery.slider.min.js" ?>"></script>
 <script type="text/javascript" src="<?php echo URL . "js/main-fm.min.js" ?>"></script>
 <script type="text/javascript" src="<?php echo URL . "cookies/cookies.min.js" ?>"></script>
+<script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/42230b5b-e045-4885-9d85-2daa7c44f2c7-loader.js"></script>
 <?php echo $voResultadoConfiguracoes->facebook_pixel ?>

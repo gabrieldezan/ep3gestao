@@ -56,7 +56,7 @@ $(document).ready(function () {
             fr.readAsDataURL(this.files[0]);
         }
     });
-
+    
     if ($("#inputPoliticasPrivacidade").length > 0) {
         tinymce.init({
             selector: "textarea#inputPoliticasPrivacidade",
@@ -134,25 +134,15 @@ function edita_informacoes_gerais() {
                 $("#inputEnvioPorta").val(data[0].envio_porta);
                 $("#inputEnvioEmail").val(data[0].envio_email);
                 $("#inputEnvioSenha").val(data[0].envio_senha);
-                $("#inputFacebook").val(data[0].facebook);
-                $("#inputTwitter").val(data[0].twitter);
-                $("#inputInstagram").val(data[0].instagram);
-                $("#inputYoutube").val(data[0].youtube);
-                $("#inputLinkedin").val(data[0].linkedin);
-                $("#inputPinterest").val(data[0].pinterest);
+                $("#inputGoogleSearchConsole").val(data[0].google_search_console);
+                $("#inputGoogleAnalytics").val(data[0].google_analytics);
+                $("#inputFacebookPixel").val(data[0].facebook_pixel);
                 $("#imgLogoFaviconAtual").attr("src", vsUrl + "uploads/informacoes_gerais/" + data[0].favicon);
                 $("#inputLogoFaviconAtual").val(data[0].favicon);
                 $("#imgLogoPrincipalAtual").attr("src", vsUrl + "uploads/informacoes_gerais/" + data[0].logo_principal);
                 $("#inputLogoPrincipalAtual").val(data[0].logo_principal);
                 $("#imgLogoSecundariaAtual").attr("src", vsUrl + "uploads/informacoes_gerais/" + data[0].logo_secundaria);
                 $("#inputLogoSecundariaAtual").val(data[0].logo_secundaria);
-                if (data[0].video_banner !== "") {
-                    $("#inputVideoBannerAtual").val(data[0].video_banner);
-                    $("#botao_visualizar_video").attr("href", vsUrl + "uploads/informacoes_gerais/" + data[0].video_banner);
-                    $("#botao_visualizar_video").removeClass('disabled');
-                } else {
-                    $("#botao_visualizar_video").addClass('disabled');
-                }
                 $("#inputPoliticasPrivacidade").val(data[0].politicas_privacidade);
             }
             CloseLoading();

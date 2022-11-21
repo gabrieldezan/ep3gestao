@@ -17,7 +17,7 @@
                                 <ul class="nav">
                                     <li><a href="<?php echo URL . "#!home" ?>" class="first active">Home</a></li>
                                     <li><a href="<?php echo URL . "#!quem-somos" ?>">Quem Somos</a></li>
-                                    <li><a href="<?php echo URL . "#!nosso-time" ?>">Nosso Time</a></li>
+                                    <?php /* <li><a href="<?php echo URL . "#!nosso-time" ?>">Nosso Time</a></li> */ ?>
                                     <li><a href="<?php echo URL . "#!clientes-parceiros" ?>">Clientes e Parceiros</a></li>
                                     <li><a href="<?php echo URL . "blog" ?>">Blog</a></li>
                                     <li><a href="<?php echo URL . "#!contato" ?>" class="last">Contato</a></li>

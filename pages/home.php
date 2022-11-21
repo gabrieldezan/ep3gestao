@@ -42,7 +42,7 @@
                                     <ul class="nav">
                                         <li><a href="#!home" class="first active">Home</a></li>
                                         <li><a href="#!quem-somos">Quem Somos</a></li>
-                                        <li><a href="#!nosso-time">Nosso Time</a></li>
+                                        <?php // <li><a href="#!nosso-time">Nosso Time</a></li> ?>
                                         <li><a href="#!nossas-solucoes">Soluções</a></li>
                                         <li><a href="#!clientes-parceiros">Clientes</a></li>
                                         <li><a href="#!blog">Blog</a></li>
@@ -141,6 +141,7 @@
                 </div>
             </div>
 
+            <?php /*
             <div data-id="!nosso-time" class="contentWrapper autoPosition m-Scrollbar backGround">
                 <div class="top_space"> </div>
                 <div class="container">
@@ -233,6 +234,7 @@
                     </div>
                 </div>
             </div>
+            */ ?>
 
             <div data-id="!nossas-solucoes" class="contentWrapper autoPosition fullHeight m-Scrollbar backGround">
                 <div class="top_space"> </div>
